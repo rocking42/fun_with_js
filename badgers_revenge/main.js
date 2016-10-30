@@ -12,14 +12,20 @@
 
 console.log("hello");
 var peopleClapped = {
-  jeremy: 2,
-  james: 4,
-  frank: 1,
-  tom: 3,
-  sherry: 4,
-  harry: 2,
-  cindy: 3
+  jeremy: 0,
+  james: 0,
+  frank: 0,
+  tom: 0,
+  sherry: 0,
+  harry: 0,
+  cindy: 0
 };
+function addClaps(student) {
+  peopleClapped[student] += 1;
+  return peopleClapped;
+}
+console.log(addClaps("jeremy"));
+
 function revengeOfBadger(object) {
   var myArr = [];
     for (var prop in object ){
