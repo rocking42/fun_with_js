@@ -1,0 +1,19 @@
+html {
+  background: #81e981cc;
+}
+
+div.main {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 0 30px 0;
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+
+div.one {
+  color: black;
+  margin-bottom: 20px
+}
